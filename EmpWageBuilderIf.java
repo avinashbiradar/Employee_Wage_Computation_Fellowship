@@ -14,6 +14,13 @@ public class EmpWageBuilderIf {
                 System.out.println("Full Time");
                 System.out.println("empWage " + empWage);
             }
+            else if (empCheck==IS_PART_TIME)
+            {
+                empHrs = 4;
+                empWage = empHrs * EMP_RATE_PER_HOUR;
+                System.out.println("Part Time");
+                System.out.println("empWage " + empWage);
+            }
             else
             {
                 empHrs=0;
